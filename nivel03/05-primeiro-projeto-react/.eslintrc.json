@@ -32,6 +32,10 @@
       "import/prefer-default-export": "off",
       "camelcase": "off",
       "@typescript-eslint/ban-types": "off",
+      // "@typescript-eslint/explicit-function-return-type": [
+      //   "error",
+      //   {"allowExpresions": true}
+      // ],
       "import/extensions": [
         "error",
         "ignorePackages",
