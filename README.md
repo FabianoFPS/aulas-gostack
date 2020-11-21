@@ -12,11 +12,11 @@
 
 ## 📝 Tabela de conteúdos  
 
-- [About](#about)
+- [Sobre](#about)
 - [Tecnologias](#tec)
 
 
-## 🧐 About <a name = "about"></a>
+## 🧐 Sobre <a name = "about"></a>
 
 Repositório das aulas desenvolvidas no bootcamp GoStack | [Rocketseat](https://rocketseat.com.br/).
 
