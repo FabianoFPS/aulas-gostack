@@ -42,7 +42,7 @@ const SignIn: React.FC = () => {
             <Input name="senha" icon="lock" placeholder="Senha" />
             <Button
               onPress={() => {
-                console.log('tá');
+                console.log('');
               }}
             >
               Entrar
@@ -50,7 +50,7 @@ const SignIn: React.FC = () => {
             <ForgotPassword>
               <ForgotPasswordText
                 onPress={() => {
-                  console.log('25');
+                  console.log('');
                 }}
               >
                 Esqueci minha senha
@@ -61,7 +61,7 @@ const SignIn: React.FC = () => {
       </KeyboardAvoidingView>
       <CreateAccountButton
         onPress={() => {
-          console.log('bla');
+          console.log('');
         }}
       >
         <Icon name="log-in" size={20} color="#ff9000" />
