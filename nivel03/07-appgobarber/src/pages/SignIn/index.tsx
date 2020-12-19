@@ -5,9 +5,12 @@ import {
   Platform,
   View,
   ScrollView,
+  TextInput,
 } from 'react-native';
 import Icon from 'react-native-vector-icons/Feather';
 import { useNavigation } from '@react-navigation/native';
+import { Form } from '@unform/mobile';
+import { FormHandles } from '@unform/core';
 
 import Input from '../../components/Input';
 import Button from '../../components/Button';
@@ -22,8 +25,18 @@ import {
   CreateAccountButtonText,
 } from './styles';
 
+interface handleSignInData {
+  [key: string]: unknown;
+}
+
 const SignIn: React.FC = () => {
+  const passwordInputRef = React.useRef<TextInput>(null);
+  const formRef = React.useRef<FormHandles>(null);
   const navigation = useNavigation();
+  const handleSignIn = React.useCallback((data: handleSignInData) => {
+    console.log(data);
+  }, []);
+
   return (
     <>
       <KeyboardAvoidingView
@@ -40,11 +53,34 @@ const SignIn: React.FC = () => {
             <View>
               <Title>Faça seu logon</Title>
             </View>
-            <Input name="email" icon="mail" placeholder="E-mail" />
-            <Input name="senha" icon="lock" placeholder="Senha" />
+            <Form ref={formRef} onSubmit={handleSignIn}>
+              <Input
+                autoCorrect={false}
+                autoCapitalize="none"
+                keyboardType="email-address"
+                name="email"
+                icon="mail"
+                placeholder="E-mail"
+                returnKeyType="next"
+                onSubmitEditing={() => {
+                  passwordInputRef.current?.focus();
+                }}
+              />
+              <Input
+                ref={passwordInputRef}
+                secureTextEntry
+                name="senha"
+                icon="lock"
+                placeholder="Senha"
+                returnKeyType="send"
+                onSubmitEditing={() => {
+                  formRef.current?.submitForm();
+                }}
+              />
+            </Form>
             <Button
               onPress={() => {
-                console.log('');
+                formRef.current?.submitForm();
               }}
             >
               Entrar
