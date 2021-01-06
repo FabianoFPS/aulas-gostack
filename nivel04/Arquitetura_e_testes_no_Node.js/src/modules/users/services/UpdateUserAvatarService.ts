@@ -1,25 +1,33 @@
-import { getRepository } from 'typeorm';
 import path from 'path';
 import fs from 'fs';
+import { injectable, inject } from 'tsyringe';
 
 import uploadConfig from '@config/upload';
 import User from '@modules/users/infra/typeorm/entities/user';
 import AppError from '@shared/errors/AppError';
+import IUsersRepository from '@modules/users/repositories/IUsersRepository';
 
-interface Request {
+interface IRequest {
   // eslint-disable-next-line camelcase
   user_id: string;
   avatarFilename: string;
 }
 
+@injectable()
 class UpdateUserAvatarService {
-  public async execute({ user_id, avatarFilename }: Request): Promise<User> {
-    const userRepository = getRepository(User);
+  constructor(
+    @inject('RgUsersRepository')
+    private userRepository: IUsersRepository,
+  ) {}
 
-    const user = await userRepository.findOne(user_id);
-
+  public async execute({ user_id, avatarFilename }: IRequest): Promise<User> {
+    const user = await this.userRepository.findById(user_id);
+    const unauthorizedHttpCode = 401;
     if (!user)
-      throw new AppError('Only authenticated users can change avatart', 401);
+      throw new AppError(
+        'Only authenticated users can change avatart',
+        unauthorizedHttpCode,
+      );
 
     if (user.avatar) {
       const userAvatarFilePath = path.join(uploadConfig.directory, user.avatar);
@@ -29,7 +37,7 @@ class UpdateUserAvatarService {
     }
 
     user.avatar = avatarFilename;
-    await userRepository.save(user);
+    await this.userRepository.save(user);
 
     return user;
   }
