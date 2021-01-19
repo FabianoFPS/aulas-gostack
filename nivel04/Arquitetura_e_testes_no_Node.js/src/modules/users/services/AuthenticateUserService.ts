@@ -22,7 +22,7 @@ class AuthenticateUserService {
   constructor(
     @inject('RgUsersRepository')
     private userRepository: IUsersRepository,
-    @inject('RgIHashProvider')
+    @inject('RgHashProvider')
     private hashProvider: IHashProvider,
   ) {}
 
