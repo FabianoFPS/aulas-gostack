@@ -1,4 +1,5 @@
 import AppError from '@shared/errors/AppError';
+import FakeNotificationsRepository from '@modules/notifications/repositories/fakes/FakeNotificationRepository';
 import FakeAppointmentsRepository from '../repositories/fakes/FakeAppointmentsRepository';
 import CreateAppointmentServices from './CreateAppointmentService';
 
@@ -6,13 +7,16 @@ const mock_user_id = 'fffffffffffffffffffffff';
 const mock_provider_id = 'asdf465d4f6sa4df';
 
 let fakeAppointmentsRepository: FakeAppointmentsRepository;
+let fakeNotificationRepository: FakeNotificationsRepository;
 let createAppointment: CreateAppointmentServices;
 
 describe('CreateAppointment', () => {
   beforeEach(() => {
     fakeAppointmentsRepository = new FakeAppointmentsRepository();
+    fakeNotificationRepository = new FakeNotificationsRepository();
     createAppointment = new CreateAppointmentServices(
       fakeAppointmentsRepository,
+      fakeNotificationRepository,
     );
   });
   it('should de able to create a new appointment', async () => {
