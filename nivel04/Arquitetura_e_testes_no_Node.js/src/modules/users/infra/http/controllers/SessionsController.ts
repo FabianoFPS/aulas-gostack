@@ -1,5 +1,6 @@
 import { Request, Response } from 'express';
 import { container } from 'tsyringe';
+import { classToClass } from 'class-transformer';
 
 import AuthenticateUserService from '@modules/users/services/AuthenticateUserService';
 
@@ -14,9 +15,6 @@ export default class SessionsController {
       password,
     });
 
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    const { password: ocultar, ...userResponse } = user;
-
-    return response.json({ userResponse, token });
+    return response.json({ user: classToClass(user), token });
   }
 }
