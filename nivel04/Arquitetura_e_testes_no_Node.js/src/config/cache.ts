@@ -8,8 +8,8 @@ interface ICacheConfig {
 export default {
   driver: 'redis',
   config: {
-    port: 6379,
-    host: '127.0.0.1',
-    password: undefined,
+    port: Number(process.env.REDIS_PORT) || 6379,
+    host: process.env.REDIS_HOST || 'localhost',
+    password: process.env.REDIS_PASS || undefined,
   },
 } as ICacheConfig;
