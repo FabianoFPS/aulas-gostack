@@ -1,6 +1,6 @@
 interface ICacheProvider {
-  save(key: string, value: string): Promise<void>;
-  recover(key: string): Promise<unknown>;
+  save(key: string, value: unknown): Promise<void>;
+  recover<T>(key: string): Promise<T | null>;
   invalidate(key: string): Promise<void>;
 }
 
