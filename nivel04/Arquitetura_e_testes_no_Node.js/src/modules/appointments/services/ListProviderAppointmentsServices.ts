@@ -27,6 +27,7 @@ class ListProviderAppontmentsService {
     day,
   }: IRequest): Promise<Appointment[]> {
     const cacheData = await this.cacheProvider.recover('teste');
+    // eslint-disable-next-line no-console
     console.log(cacheData);
 
     const appontments = await this.appointmentsRepository.findAllInDayFromProvider(

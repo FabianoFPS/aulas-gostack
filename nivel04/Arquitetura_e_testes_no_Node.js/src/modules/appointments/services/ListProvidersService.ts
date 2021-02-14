@@ -1,5 +1,7 @@
 import { injectable, inject } from 'tsyringe';
-import ICacheProvider from '@shared/container/providers/CacheProvider/models/ICacheProvider';
+import ICacheProvider, {
+  ICacheProviderRegistri,
+} from '@shared/container/providers/CacheProvider/models/ICacheProvider';
 
 import User from '@modules/users/infra/typeorm/entities/user';
 import IUsersRepository from '@modules/users/repositories/IUsersRepository';
@@ -13,7 +15,7 @@ class ListProvidersService {
   constructor(
     @inject('RgUsersRepository')
     private userRepository: IUsersRepository,
-    @inject('RgCacheProvider')
+    @inject(ICacheProviderRegistri)
     private cacheProvider: ICacheProvider,
   ) {}
 
@@ -25,7 +27,6 @@ class ListProvidersService {
       users = await this.userRepository.findAllProviders({
         except_user_id: user_id,
       });
-      console.log('Aquery no banco foi feita');
 
       await this.cacheProvider.save(`providers-list:${user_id}`, users);
     }
