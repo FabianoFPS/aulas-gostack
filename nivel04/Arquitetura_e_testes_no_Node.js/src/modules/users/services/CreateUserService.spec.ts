@@ -2,6 +2,7 @@ import AppError from '@shared/errors/AppError';
 import FakeUsersRepository from '@modules/users/repositories/fakes/FakeUserRepository';
 import CreateUserServices from '@modules/users/services/CreateUserService';
 import FakeHashProvider from '@modules/users/providers/HashProvider/fakes/FakeHashProvider';
+import FakeCacheProvider from '@shared/container/providers/CacheProvider/fakes/FakeCacheProvider';
 
 let createUser: CreateUserServices;
 
@@ -10,6 +11,7 @@ describe('CreateUser', () => {
     createUser = new CreateUserServices(
       new FakeUsersRepository(),
       new FakeHashProvider(),
+      new FakeCacheProvider(),
     );
   });
   it('should de able to create a new user', async () => {

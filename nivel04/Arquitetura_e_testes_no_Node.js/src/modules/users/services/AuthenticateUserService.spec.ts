@@ -4,17 +4,25 @@ import FakeUsersRepository from '@modules/users/repositories/fakes/FakeUserRepos
 import AuthenticateUserService from '@modules/users/services/AuthenticateUserService';
 import CreateUserServices from '@modules/users/services/CreateUserService';
 import FakeHashProvider from '@modules/users/providers/HashProvider/fakes/FakeHashProvider';
+import FakeCacheProvider from '@shared/container/providers/CacheProvider/fakes/FakeCacheProvider';
 
 let fakeUseresRepository: FakeUsersRepository;
 let fakeHashProvider: FakeHashProvider;
 let createUser: CreateUserServices;
 let authenticateUser: AuthenticateUserService;
+let fakeCacheProvider: FakeCacheProvider;
 
 describe('AuthenticateUser', () => {
   beforeAll(() => {
     fakeUseresRepository = new FakeUsersRepository();
     fakeHashProvider = new FakeHashProvider();
-    createUser = new CreateUserServices(fakeUseresRepository, fakeHashProvider);
+    fakeCacheProvider = new FakeCacheProvider();
+
+    createUser = new CreateUserServices(
+      fakeUseresRepository,
+      fakeHashProvider,
+      fakeCacheProvider,
+    );
     authenticateUser = new AuthenticateUserService(
       fakeUseresRepository,
       fakeHashProvider,
