@@ -5,6 +5,9 @@ import Appointment from '@modules/appointments/infra/typeorm/entities/Appointmen
 import AppError from '@shared/errors/AppError';
 import IAppointmentsRepository from '@modules/appointments/repositories/IAppointmentsRepository';
 import INotificationsRepository from '@modules/notifications/repositories/INotificationsRepository';
+import ICacheProvider, {
+  ICacheProviderRegistri,
+} from '@shared/container/providers/CacheProvider/models/ICacheProvider';
 
 interface IRequestDTO {
   provider_id: string;
@@ -19,6 +22,8 @@ class CreateAppointment {
     private appointmentsRepository: IAppointmentsRepository,
     @inject('RgNotificationsRepository')
     private notificationRepository: INotificationsRepository,
+    @inject(ICacheProviderRegistri)
+    private cacheProvider: ICacheProvider,
   ) {}
 
   public async execute({
@@ -59,6 +64,9 @@ class CreateAppointment {
       content: `Novo agendamento para dia ${dateFormated}`,
       recipient_id: provider_id,
     });
+    const dateKey = format(appointmentDate, 'yyyy-M-d');
+    const cacheKey = `provider-appointments:${provider_id}:${dateKey}`;
+    await this.cacheProvider.invalidate(cacheKey);
 
     return appointment;
   }
