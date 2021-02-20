@@ -4,6 +4,7 @@ import express, { Request, Response, NextFunction } from 'express';
 import 'express-async-errors';
 import cors from 'cors';
 import { errors } from 'celebrate';
+import { log } from 'debug';
 
 import routes from '@shared/infra/http/routes';
 import uploadConfig from '@config/upload';
@@ -32,8 +33,7 @@ app.use(
       });
     }
 
-    // eslint-disable-next-line no-console
-    console.error(err);
+    log(err);
 
     return response.status(500).json({
       status: 'error',
@@ -43,6 +43,5 @@ app.use(
 );
 
 app.listen(3333, () => {
-  // eslint-disable-next-line no-console
-  console.info('Server start on port 3333!');
+  log('Server start on port 3333!');
 });

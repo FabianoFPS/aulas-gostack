@@ -21,12 +21,10 @@ class SendForgotPasswordEmailService {
     private userTokensRepository: IUserTokensRepository,
   ) {}
 
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   public async execute({ email }: IRequest): Promise<void> {
     const user = await this.userRepository.findByEmail(email);
     if (!user) throw new AppError('User does not exists');
     const { token } = await this.userTokensRepository.generate(user.id);
-    // console.log('TOKEN:', token);
     const forgotPasswordTemplate = path.resolve(
       __dirname,
       '..',
@@ -43,7 +41,7 @@ class SendForgotPasswordEmailService {
         file: forgotPasswordTemplate,
         variables: {
           name: user.name,
-          link: `${process.env.APP_WEB_URL}/reset_password?token=${token}`,
+          link: `${process.env.APP_WEB_URL}/reset-password?token=${token}`,
         },
       },
     });

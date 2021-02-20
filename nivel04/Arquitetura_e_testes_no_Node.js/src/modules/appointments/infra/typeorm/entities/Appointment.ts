@@ -25,6 +25,8 @@ class Appointment {
   @Column('varchar')
   public user_id: string;
 
+  // @ManyToOne(() => User, { lazy: true })
+  // @ManyToOne(() => User, { eager: true })
   @ManyToOne(() => User)
   @JoinColumn({ name: 'user_id' })
   user: User;
