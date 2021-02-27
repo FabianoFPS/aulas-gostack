@@ -1,7 +1,16 @@
 import React from 'react';
 
-import { FiPower } from 'react-icons/fi';
-import { Container, Header, HeaderContent, Profile } from './styles';
+import { FiClock, FiPower } from 'react-icons/fi';
+import {
+  Container,
+  Header,
+  HeaderContent,
+  Profile,
+  Content,
+  Schedule,
+  NexAppointment,
+  Calendar,
+} from './styles';
 
 import logoImg from '../../assets/logo.svg';
 import { useAuth } from '../../hooks/Auth';
@@ -26,6 +35,31 @@ function Dashboard(): JSX.Element {
           </button>
         </HeaderContent>
       </Header>
+      <Content>
+        <Schedule>
+          <h1>Horário agendado</h1>
+          <p>
+            <span>Hoje</span>
+            <span>Dia 06</span>
+            <span>Segunda-feira</span>
+          </p>
+          <NexAppointment>
+            <strong>Atendimento a seguir</strong>
+            <div>
+              <img
+                src="https://avatars.githubusercontent.com/u/50460062?s=460&u=965d8fec70f4c08e798662603c41e61a4f77bd44&v=4"
+                alt={user.name}
+              />
+              <strong>Fabiano Francisco</strong>
+              <span>
+                <FiClock />
+                08:00
+              </span>
+            </div>
+          </NexAppointment>
+        </Schedule>
+        <Calendar />
+      </Content>
     </Container>
   );
 }
