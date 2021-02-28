@@ -50,6 +50,8 @@ export const AuthProvider: React.FC = ({ children }) => {
     localStorage.setItem('@GoBarber:token', token);
     localStorage.setItem('@GoBarber:user', JSON.stringify(userResponse));
 
+    api.defaults.headers.authorization = `Bearer ${token}`;
+
     setData({ token, user: userResponse });
   }, []);
   const signOut = useCallback(() => {
