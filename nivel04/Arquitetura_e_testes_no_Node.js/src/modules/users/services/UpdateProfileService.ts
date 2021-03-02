@@ -9,7 +9,7 @@ interface IRequest {
   user_id: string;
   name: string;
   email: string;
-  oldPassword?: string;
+  old_password?: string;
   password?: string;
 }
 
@@ -26,7 +26,7 @@ class UpdateProfileService {
     user_id,
     name,
     email,
-    oldPassword = '',
+    old_password = '',
     password,
   }: IRequest): Promise<User> {
     const user = await this.userRepository.findById(user_id);
@@ -40,9 +40,9 @@ class UpdateProfileService {
     user.email = email;
 
     const checkOldPassword =
-      oldPassword === ''
+      old_password === ''
         ? false
-        : await this.hashProvider.compareHash(oldPassword, user.password);
+        : await this.hashProvider.compareHash(old_password, user.password);
 
     if (password && !checkOldPassword)
       throw new AppError('Old password does not match.');

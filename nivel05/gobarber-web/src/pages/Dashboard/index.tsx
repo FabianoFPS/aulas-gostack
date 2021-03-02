@@ -4,6 +4,7 @@ import ptBR from 'date-fns/locale/pt-BR';
 import DayPicker, { DayModifiers } from 'react-day-picker';
 import 'react-day-picker/lib/style.css';
 import { FiClock, FiPower } from 'react-icons/fi';
+import { Link, useHistory } from 'react-router-dom';
 import {
   Container,
   Header,
@@ -38,7 +39,6 @@ interface Appointment {
 
 function Dashboard(): JSX.Element {
   const { signOut, user } = useAuth();
-
   const [selectedDate, setSelectedDate] = useState(new Date());
   const [currentMonth, setCurrentMonth] = useState(new Date());
   const [monthAvailability, setMonthAvailability] = useState<
@@ -68,6 +68,9 @@ function Dashboard(): JSX.Element {
       })
       .then(response => {
         setMonthAvailability(response.data);
+      })
+      .catch(() => {
+        signOut();
       });
   }, [currentMonth, user.id]);
 
@@ -151,7 +154,9 @@ function Dashboard(): JSX.Element {
             <img src={user.avatar_url} alt={user.name} />
             <div>
               <span>Bem-vindo</span>
-              <strong>{user.name}</strong>
+              <Link to="/profile">
+                <strong>{user.name}</strong>
+              </Link>
             </div>
           </Profile>
           <button type="button" onClick={signOut}>

@@ -17,14 +17,14 @@ export default class ProfileController {
   public async update(request: Request, response: Response): Promise<Response> {
     try {
       const user_id = request.user.id;
-      const { name, email, oldPassword, password } = request.body;
+      const { name, email, old_password, password } = request.body;
 
       const updateProfile = container.resolve(UpdateProfileService);
       const user = await updateProfile.execute({
         user_id,
         name,
         email,
-        oldPassword,
+        old_password,
         password,
       });
 
