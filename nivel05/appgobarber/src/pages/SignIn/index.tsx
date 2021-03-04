@@ -118,11 +118,7 @@ const SignIn: React.FC = () => {
               Entrar
             </Button>
             <ForgotPassword>
-              <ForgotPasswordText
-                onPress={() => {
-                  console.log('');
-                }}
-              >
+              <ForgotPasswordText onPress={() => {}}>
                 Esqueci minha senha
               </ForgotPasswordText>
             </ForgotPassword>
