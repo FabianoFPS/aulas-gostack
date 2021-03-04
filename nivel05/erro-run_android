@@ -1,0 +1,271 @@
+info Running jetifier to migrate libraries to AndroidX. You can disable it using "--no-jetifier" flag.
+Jetifier found 1142 file(s) to forward-jetify. Using 4 workers...
+info JS server already running.
+info Installing the app...
+
+> Task :react-native-community_async-storage:compileDebugJavaWithJavac
+
+> Task :react-native-gesture-handler:compileDebugJavaWithJavac
+
+> Task :react-native-reanimated:compileDebugJavaWithJavac
+
+> Task :react-native-screens:compileDebugJavaWithJavac
+
+> Task :app:compileDebugJavaWithJavac
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libreactnativeblob.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libevent_core-2.1.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libhermes-executor-release.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libc++_shared.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libfb.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libimagepipeline.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libjsijniprofiler.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libfolly_json.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libjsc.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libnative-filters.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libjscexecutor.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libflipper.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libnative-imagetranscoder.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libevent_extra-2.1.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libhermes-inspector.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libglog_init.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libglog.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libhermes-executor-debug.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libreactnativeblob.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libevent_core-2.1.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libhermes-executor-release.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libreactnativejni.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libfbjni.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libfb.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libimagepipeline.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libjsijniprofiler.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libfolly_json.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libjsc.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libnative-filters.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libjscexecutor.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libfolly_futures.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libnative-imagetranscoder.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libevent-2.1.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libhermes-inspector.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libglog_init.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libglog.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libhermes-executor-debug.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libreactnativeblob.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libevent_core-2.1.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libhermes-executor-release.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libc++_shared.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libfbjni.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libjsijniprofiler.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libfolly_json.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libjsinspector.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libnative-filters.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libjscexecutor.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libflipper.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libnative-imagetranscoder.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libevent-2.1.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libyoga.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libevent_extra-2.1.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libhermes-inspector.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libglog_init.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libglog.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libhermes-executor-debug.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libevent_core-2.1.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libhermes-executor-release.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libreactnativejni.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libfbjni.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libfb.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libimagepipeline.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libjsijniprofiler.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libjsc.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libflipper.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libfolly_futures.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libnative-imagetranscoder.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libevent-2.1.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libyoga.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libevent_extra-2.1.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libhermes-inspector.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libglog_init.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libglog.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libhermes-executor-debug.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+
+> Task :app:stripDebugDebugSymbols
+Compatible side by side NDK version was not found.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libreactnativejni.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libfbjni.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libjsinspector.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libfolly_futures.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libevent-2.1.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libyoga.so' due to missing strip tool for ABI 'ARMEABI_V7A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libc++_shared.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libjsinspector.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libflipper.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libyoga.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libevent_extra-2.1.so' due to missing strip tool for ABI 'X86_64'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libreactnativejni.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libfb.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libimagepipeline.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libjsc.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libfolly_futures.so' due to missing strip tool for ABI 'ARM64_V8A'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libreactnativeblob.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libc++_shared.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libfolly_json.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libjsinspector.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libnative-filters.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+Unable to strip library '/home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libjscexecutor.so' due to missing strip tool for ABI 'X86'. Packaging it as is.
+
+> Task :app:installDebug
+11:12:10 V/ddms: execute: running am get-config
+11:12:10 V/ddms: execute 'am get-config' on 'RQ8MB03HY6N' : EOF hit. Read: -1
+11:12:10 V/ddms: execute: returning
+Installing APK 'app-debug.apk' on 'SM-A205G - 10' for app:debug
+11:12:10 D/app-debug.apk: Uploading app-debug.apk onto device 'RQ8MB03HY6N'
+11:12:10 D/Device: Uploading file onto device 'RQ8MB03HY6N'
+11:12:10 D/ddms: Reading file permision of /home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/outputs/apk/debug/app-debug.apk as: rw-r--r--
+11:12:12 V/ddms: execute: running pm install -r -t "/data/local/tmp/app-debug.apk"
+11:12:22 V/ddms: execute 'pm install -r -t "/data/local/tmp/app-debug.apk"' on 'RQ8MB03HY6N' : EOF hit. Read: -1
+11:12:22 V/ddms: execute: returning
+
+> Task :app:installDebug FAILED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.2/userguide/command_line_interface.html#sec:command_line_warnings
+161 actionable tasks: 161 executed
+Note: /home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/node_modules/@react-native-community/async-storage/android/src/main/java/com/reactnativecommunity/asyncstorage/AsyncStorageModule.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: /home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/NodesManager.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/node_modules/react-native-reanimated/android/src/main/java/com/swmansion/reanimated/NodesManager.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: /home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/src/debug/java/com/appgobarber/ReactNativeFlipper.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Unable to install /home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/android/app/build/outputs/apk/debug/app-debug.apk
+com.android.ddmlib.InstallException: INSTALL_FAILED_INVALID_APK: Scanning Failed.: Package /data/app/com.appgobarber-41eYNe_zBUWwd2hKd_NMLQ==/base.apk code is missing
+	at com.android.ddmlib.Device.installRemotePackage(Device.java:1133)
+	at com.android.ddmlib.Device.installPackage(Device.java:963)
+	at com.android.ddmlib.Device.installPackage(Device.java:939)
+	at com.android.ddmlib.Device.installPackage(Device.java:928)
+	at com.android.builder.testing.ConnectedDevice.installPackage(ConnectedDevice.java:126)
+	at com.android.build.gradle.internal.tasks.InstallVariantTask.install(InstallVariantTask.java:175)
+	at com.android.build.gradle.internal.tasks.InstallVariantTask.doTaskAction(InstallVariantTask.java:106)
+	at com.android.build.gradle.internal.tasks.NonIncrementalTask$taskAction$$inlined$recordTaskAction$1.invoke(AndroidVariantTask.kt:51)
+	at com.android.build.gradle.internal.tasks.NonIncrementalTask$taskAction$$inlined$recordTaskAction$1.invoke(AndroidVariantTask.kt:31)
+	at com.android.build.gradle.internal.tasks.Blocks.recordSpan(Blocks.java:91)
+	at com.android.build.gradle.internal.tasks.NonIncrementalTask.taskAction(NonIncrementalTask.kt:34)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:104)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:49)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:42)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:28)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:727)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:694)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$3.run(ExecuteActionsTaskExecuter.java:568)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:553)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:536)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.access$300(ExecuteActionsTaskExecuter.java:109)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$TaskExecution.executeWithPreviousOutputFiles(ExecuteActionsTaskExecuter.java:276)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$TaskExecution.execute(ExecuteActionsTaskExecuter.java:265)
+	at org.gradle.internal.execution.steps.ExecuteStep.lambda$execute$1(ExecuteStep.java:33)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:33)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:26)
+	at org.gradle.internal.execution.steps.CleanupOutputsStep.execute(CleanupOutputsStep.java:67)
+	at org.gradle.internal.execution.steps.CleanupOutputsStep.execute(CleanupOutputsStep.java:36)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:49)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:34)
+	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:43)
+	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:73)
+	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:54)
+	at org.gradle.internal.execution.steps.CatchExceptionStep.execute(CatchExceptionStep.java:34)
+	at org.gradle.internal.execution.steps.CreateOutputsStep.execute(CreateOutputsStep.java:44)
+	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:54)
+	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:38)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:49)
+	at org.gradle.internal.execution.steps.CacheStep.executeWithoutCache(CacheStep.java:153)
+	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:67)
+	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:41)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:44)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:33)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:38)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:24)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:92)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$0(SkipUpToDateStep.java:85)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:55)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:39)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:76)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:37)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:36)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:26)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:94)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:49)
+	at org.gradle.internal.execution.steps.CaptureStateBeforeExecutionStep.execute(CaptureStateBeforeExecutionStep.java:79)
+	at org.gradle.internal.execution.steps.CaptureStateBeforeExecutionStep.execute(CaptureStateBeforeExecutionStep.java:53)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:74)
+	at org.gradle.internal.execution.steps.SkipEmptyWorkStep.lambda$execute$2(SkipEmptyWorkStep.java:78)
+	at org.gradle.internal.execution.steps.SkipEmptyWorkStep.execute(SkipEmptyWorkStep.java:78)
+	at org.gradle.internal.execution.steps.SkipEmptyWorkStep.execute(SkipEmptyWorkStep.java:34)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:39)
+	at org.gradle.internal.execution.steps.LoadExecutionStateStep.execute(LoadExecutionStateStep.java:40)
+	at org.gradle.internal.execution.steps.LoadExecutionStateStep.execute(LoadExecutionStateStep.java:28)
+	at org.gradle.internal.execution.impl.DefaultWorkExecutor.execute(DefaultWorkExecutor.java:33)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:192)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:184)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:114)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:56)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:41)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:372)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:359)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:352)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:338)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.lambda$run$0(DefaultPlanExecutor.java:127)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:191)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.executeNextNode(DefaultPlanExecutor.java:182)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:124)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:installDebug'.
+> com.android.builder.testing.api.DeviceException: com.android.ddmlib.InstallException: INSTALL_FAILED_INVALID_APK: Scanning Failed.: Package /data/app/com.appgobarber-41eYNe_zBUWwd2hKd_NMLQ==/base.apk code is missing
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 40s
+
+error Failed to install the app. Make sure you have the Android development environment set up: https://reactnative.dev/docs/environment-setup. Run CLI with --verbose flag for more details.
+Error: Command failed: ./gradlew app:installDebug -PreactNativeDevServerPort=8081
+Note: /home/fabiano/projetos/rocketseat/gostack/aulas/nivel03/appgobarber/node_modules/@react-native-community/async-storage/android/src/main/java/com/reactnativecommunity/asyncstorage/AsyncStorageModule.java uses or overrides a deprecated API.
+
