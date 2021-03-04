@@ -8,13 +8,9 @@ import React, {
 import AsyncStorage from '@react-native-community/async-storage';
 import api from '../services/api';
 
-interface GenericObject {
-  [key: string]: string | number;
-}
-
 interface AuthState {
   token: string;
-  user: GenericObject;
+  user: User;
 }
 
 interface SignInCredencials {
@@ -22,8 +18,15 @@ interface SignInCredencials {
   password: string;
 }
 
+interface User {
+  id: string;
+  name: string;
+  email: string;
+  avatar_url: string;
+}
+
 interface AuthContextData {
-  user: GenericObject;
+  user: User;
   loading: boolean;
   signIn(credencials: SignInCredencials): Promise<void>;
   signOut(): void;
@@ -54,12 +57,12 @@ export const AuthProvider: React.FC = ({ children }) => {
       email,
       password,
     });
-    const { token, userResponse } = response.data;
+    const { token, user } = response.data;
     await AsyncStorage.multiSet([
       ['@GoBarber:token', token],
-      ['@GoBarber:user', JSON.stringify(userResponse)],
+      ['@GoBarber:user', JSON.stringify(user)],
     ]);
-    setData({ token, user: userResponse });
+    setData({ token, user });
   }, []);
   const signOut = useCallback(async () => {
     await AsyncStorage.multiRemove(['@GoBarber:token', '@GoBarber:user']);

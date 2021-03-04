@@ -37,6 +37,8 @@
       "no-use-before-define": "off",
       "prettier/prettier": "error",
       "react/prop-types": ["off"],
+      "@typescript-eslint/camelcase": "off",
+      "camelcase": "off",
       "react/jsx-props-no-spreading": ["off"],
       "import/extensions": [
         "error",
