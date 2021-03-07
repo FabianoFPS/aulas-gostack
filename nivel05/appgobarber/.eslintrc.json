@@ -39,6 +39,7 @@
       "react/prop-types": ["off"],
       "@typescript-eslint/camelcase": "off",
       "camelcase": "off",
+      "@typescript-eslint/no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
       "react/jsx-props-no-spreading": ["off"],
       "import/extensions": [
         "error",
